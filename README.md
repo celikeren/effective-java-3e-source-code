@@ -3,7 +3,7 @@
 
 ## Chapter-2
 
-#### Item-1: Consider static methods instead of constructors
+### Item-1: Consider static methods instead of constructors
 
 A class can provide a public static factory method (not related with factory method of design patterns) which is simply a static method that returns an instance of the class. Can be provided instead of, or in addition to public constructors.  
   
