@@ -6,6 +6,7 @@
 ### Consider static methods instead of constructors
 
 A class can provide a public static factory method (not related with factory method of design patterns) which is simply a static method that returns an instance of the class. Can be provided instead of, or in addition to public constructors.  
+  
 A class can have only a single constructor with a given signature. (a method's signature: its name and the types of parameters. no return type.)
 
 ```java
@@ -29,12 +30,12 @@ Some common names for static factory methods:
 
 - of:
 ```java
-Set<Rank> faceCards = EnumSet.of(JACK, QUEEN, KING);
+  Set<Rank> faceCards = EnumSet.of(JACK, QUEEN, KING);
 ```
 
 - valueOf:
 ```java
-BigInteger prime = BigInteger.valueOf(Integer.MAX_VALUE);
+  BigInteger prime = BigInteger.valueOf(Integer.MAX_VALUE);
 ```
 - instance/getInstance, create/newInstance, getType, newType, type etc.
 
